@@ -58,7 +58,7 @@ export default function Home() {
               <h2>Design</h2>
               <span>
                 <SiAdobephotoshop size={70}/>{' '} 
-                <SiAdobeaftereffects size={70}/>c 
+                <SiAdobeaftereffects size={70}/>{' '}
                 <SiAdobeillustrator size={70}/>{' '} 
                 <SiAdobexd size={70}/>
               </span>
