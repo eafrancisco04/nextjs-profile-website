@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-      <header className={styles.main}>
-          <h1 className="title">
+      <header className={styles.header}>
+          <h2 className="title">
             <Link href="/">
               <a>Home</a>
             </Link>
@@ -12,7 +12,7 @@ export default function Header() {
             <Link href="/portfolio">
               <a>Portfolio</a>
             </Link>
-          </h1>
+          </h2>
   
           
         </header>

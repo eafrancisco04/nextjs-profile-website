@@ -2,8 +2,11 @@ import Header from '../components/Header';
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/Image';
-import { BiHomeSmile, BiWinkSmile, BiFolderOpen, BiMailSend } from 'react-icons/bi';
-import { FiLinkedin, FiGithub } from 'react-icons/fi'
+
+import { SiAdobephotoshop, SiAdobeaftereffects, SiAdobeillustrator, SiAdobexd, SiJavascript, SiNodedotjs } from 'react-icons/si';
+import { AiFillHtml5, AiFillGithub, AiFillInstagram, AiFillBehanceCircle } from 'react-icons/ai';
+import { DiCss3, DiReact } from 'react-icons/di';
+import { BsBootstrapFill, BsLinkedin } from 'react-icons/bs';
 
 import styles from '../styles/Home.module.css';
 
@@ -17,21 +20,87 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+      
+      <Header />
        
-        <div className={styles.aboutMe}>
-          <h1>Hey, there!</h1>
+        <div>
+          <div className={styles.main}>
+            <h1>Ea Francisco</h1>
+            <h2>Freelance Web Designer | Content Manager</h2>
+            <button type="button">My Portfolio</button>
+            <button type="button">My Resume</button>
+
+          </div>
+    
           <div >
-            <p>Hi! My name is Christa Faye Reyes. I am borne Filipino, based in Manitoba, Canada.</p>
-            <p>I have an almost 7 years of experience on back-end development and support. I worked as an Application Support, exposed to different programming languages such as: SQL, PowerShell, Bash, C#, ASP.Net, HTML, CSS, JavaScript, Ansible.. etc.
+            <h4>I'm a Filipino freelance web designer based in Toronto.</h4>
+            <p>I worked for over 4 years as a content creator and manager. I've helped clients form all around the world to create their brand, start their website, and increase their social media following.
+            With my experience, I can build you creative and functional websites that matches your brand identity.
             </p>
-            <p>Aside from my technical background, I had a volunteer experience since 2013 to 2018 which stirred my passion for design. I volunteer in creating publication materials, audio-visual presentations, editing podcasts and coordinating events
+            <p>Experimenting with design has become my new passion, and I'm continuously advancing my skills and learning new tricks to give cleints a unique experience.
             </p>
+            <p>
+              Want to know about me? Check out my resume or go to my social media!
+            </p>
+            <span>
+              <Link href="https://github.com/eafrancisco04">
+                <AiFillGithub size={70}/>
+              </Link>
+              <AiFillInstagram size={70}/>
+              <AiFillBehanceCircle size={70}/>
+              <BsLinkedin size={70}/>
+            </span>
           </div>
 
-          <div className={styles.sites}>
-            <h4>Know More About Me:</h4>
-            <a href="https://www.linkedin.com/in/christafayereyes/"><FiLinkedin size={35} /></a>
-            <a href="https://github.com/ChristaFaye"><FiGithub size={35} /></a>
+          <div className={styles.skills}>
+            <h2>My Skills</h2>
+            <div>
+              <h2>Design</h2>
+              <span>
+                <SiAdobephotoshop size={70}/>{' '} 
+                <SiAdobeaftereffects size={70}/>c 
+                <SiAdobeillustrator size={70}/>{' '} 
+                <SiAdobexd size={70}/>
+              </span>
+
+              <h2>Developer</h2>
+              <span>
+                <SiJavascript size={70}/>
+                <AiFillHtml5 size={70}/>
+                <DiCss3 size={70}/>
+                <DiReact size={70}/>
+                <BsBootstrapFill size={70} />
+                <SiNodedotjs size={70} />
+              </span>
+            </div>
+
+
+          </div>
+
+
+          <div className={styles.contact}>
+            <h2>Get in Touch</h2>
+            <div class={styles.input}>
+              <label>Name: </label>
+              <input type="text" className={styles.input} placeholder="Your Name"/>
+            </div>
+
+            <div class={styles.input}>
+              <label>Email: </label>
+              <input type="text" className={styles.input} placeholder="Your Email"/>
+            </div>
+
+            <div class={styles.input}>
+              <label>Contact Number: </label>
+              <input type="text" className={styles.input} placeholder="Your Number" />
+            </div>
+
+            <div class={styles.input}>
+              <label>Message: </label>
+              <textarea class="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send</button>
           </div>
         </div>
 
@@ -40,10 +109,7 @@ export default function Home() {
       
 
       <footer className={styles.footer}>
-          Copyright | {' '} Christa Faye Reyes © 2022  {' '} 
-          <span className={styles.logo}>
-            <Image src={icon} alt="Logo" width={15} height={15}/>
-          </span>
+        <small>2022 Elizabeth Ann "Ea" Francisco © All Rights Reserved. </small>
       </footer>
 
     </div>

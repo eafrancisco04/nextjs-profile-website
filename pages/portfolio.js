@@ -4,7 +4,7 @@ export default function FirstPost() {
   return (
     <>
     <Header />
-      <h1>This is my portfolio</h1>
+      <h1>My Portfolio</h1>
     </>
   )
 }
