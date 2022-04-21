@@ -91,7 +91,7 @@
 }
 
 .footer {
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
 }
 .samples {
@@ -110,6 +110,25 @@
   display: inline-block;
 
   width: 80%;
+}
+
+.contact {
+  margin: auto;
+  padding: 2rem;
+  width: 50%;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.input {
+  margin: .5rem 0;
+  width: 100%;
 }
 
 /*

@@ -6,7 +6,7 @@ import styles from '../styles/Resume.module.css';
 import { SiAdobephotoshop, SiAdobeaftereffects, SiAdobeillustrator, SiAdobexd, SiJavascript, SiNodedotjs } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub, AiFillInstagram, AiFillBehanceCircle } from 'react-icons/ai';
 import { DiCss3, DiReact } from 'react-icons/di';
-import { BsBootstrapFill, BsLinkedin } from 'react-icons/bs';
+import { BsBootstrapFill, BsLinkedin, BsWordpress, BsFillPenFill } from 'react-icons/bs';
 
 
 export default function Resume() {
@@ -94,6 +94,15 @@ export default function Resume() {
                 <BsBootstrapFill size={70} />
                 <SiNodedotjs size={70} />
               </span>
+
+              <h3>Other Skills</h3>
+              <ul className={styles.others}>
+                  <li>SEO</li>
+                  <li>Copywriting</li>
+                  <li>Content Writing</li>
+                  <li>Wordpress</li>
+                  <li>Project Management</li>
+              </ul>
             </div>
 
           </div>

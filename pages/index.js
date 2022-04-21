@@ -56,56 +56,33 @@ export default function Home() {
             </span>
           </div>
 
-          {/* <div className={styles.skills}>
-            <h2>My Skills</h2>
-            <div>
-              <h2>Design</h2>
-              <span>
-                <SiAdobephotoshop size={70}/>{' '} 
-                <SiAdobeaftereffects size={70}/>{' '}
-                <SiAdobeillustrator size={70}/>{' '} 
-                <SiAdobexd size={70}/>
-              </span>
-
-              <h2>Developer</h2>
-              <span>
-                <SiJavascript size={70}/>
-                <AiFillHtml5 size={70}/>
-                <DiCss3 size={70}/>
-                <DiReact size={70}/>
-                <BsBootstrapFill size={70} />
-                <SiNodedotjs size={70} />
-              </span>
-            </div> */}
-
-
-          {/* </div>
-
 
           <div className={styles.contact}>
             <h2>Get in Touch</h2>
-            <div className={styles.input}>
-              <label>Name: </label>
-              <input type="text" className={styles.input} placeholder="Your Name"/>
-            </div>
+            <form className={styles.form}>
+                <div className={styles.input}>
+                  <label>Name: </label>
+                  <input type="text" className={styles.input} placeholder="Your Name"/>
+                </div>
 
-            <div className={styles.input}>
-              <label>Email: </label>
-              <input type="text" className={styles.input} placeholder="Your Email"/>
-            </div>
+                <div className={styles.input}>
+                  <label>Email: </label>
+                  <input type="text" className={styles.input} placeholder="Your Email"/>
+                </div>
 
-            <div className={styles.input}>
-              <label>Contact Number: </label>
-              <input type="text" className={styles.input} placeholder="Your Number" />
-            </div>
+                <div className={styles.input}>
+                  <label>Contact Number: </label>
+                  <input type="text" className={styles.input} placeholder="Your Number" />
+                </div>
 
-            <div className={styles.input}>
-              <label>Message: </label>
-              <textarea className="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
-            </div>
+                <div className={styles.input}>
+                  <label>Message: </label>
+                  <textarea className="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
+                </div>
 
-            <button type="submit" className="btn btn-primary">Send</button>
-          </div> */}
+                <button type="submit" className={styles.button}>Send</button>
+                </form>
+            </div>
         </div>
 
       <footer class={styles.footer}>
