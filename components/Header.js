@@ -4,18 +4,22 @@ import Link from 'next/link';
 export default function Header() {
     return (
       <header className={styles.header}>
-          <h2 className="title">
             <Link href="/">
-              <a>Home</a>
+              <h2>Home</h2>
+            </Link>
+            {' '}
+            <Link href="/resume">
+              <h2>Resume</h2>
             </Link>
             {' '}
             <Link href="/portfolio">
-              <a>Portfolio</a>
+              <h2>Portfolio</h2>
             </Link>
-          </h2>
   
-          
+          {/* <small className={styles.footer}>2022 Ea Francisco © All Rights Reserved. </small> */}
         </header>
+
+        
     )
   }
   

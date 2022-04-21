@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
        
         <div>
-          <div className={styles.main}>
+          <div className={styles.cover}>
             <h1>Ea Francisco</h1>
             <h2>Freelance Web Designer | Content Manager</h2>
             <button type="button">My Portfolio</button>
@@ -80,37 +80,32 @@ export default function Home() {
 
           <div className={styles.contact}>
             <h2>Get in Touch</h2>
-            <div class={styles.input}>
+            <div className={styles.input}>
               <label>Name: </label>
               <input type="text" className={styles.input} placeholder="Your Name"/>
             </div>
 
-            <div class={styles.input}>
+            <div className={styles.input}>
               <label>Email: </label>
               <input type="text" className={styles.input} placeholder="Your Email"/>
             </div>
 
-            <div class={styles.input}>
+            <div className={styles.input}>
               <label>Contact Number: </label>
               <input type="text" className={styles.input} placeholder="Your Number" />
             </div>
 
-            <div class={styles.input}>
+            <div className={styles.input}>
               <label>Message: </label>
-              <textarea class="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
+              <textarea className="form-control" aria-label="With textarea" placeholder="Your Message"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" className="btn btn-primary">Send</button>
           </div>
         </div>
 
         
       </main>
-      
-
-      <footer className={styles.footer}>
-        <small>2022 Elizabeth Ann "Ea" Francisco © All Rights Reserved. </small>
-      </footer>
 
     </div>
   )
