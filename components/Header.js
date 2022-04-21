@@ -15,8 +15,7 @@ export default function Header() {
             <Link href="/portfolio">
               <h3>Portfolio</h3>
             </Link>
-  
-          {/* <small className={styles.footer}>2022 Ea Francisco © All Rights Reserved. </small> */}
+
         </header>
 
         
