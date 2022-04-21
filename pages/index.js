@@ -29,10 +29,10 @@ export default function Home() {
           <div className={styles.cover}>
             <h1 className={styles.title}>Ea Francisco</h1>
             <h2>Freelance Web Designer | Content Manager</h2>
-            <div type="button" className={styles.button}>
-              <Link href="/portfolio">My Portfolio</Link>
-            </div>
-            <div type="button"className={styles.button}>My Resume</div>
+            <Link href="/portfolio"><div type="button" className={styles.button}>
+              My Portfolio
+            </div></Link>
+            <Link href="/resume"><div type="button"className={styles.button}>My Resume</div></Link>
 
           </div>
     
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
         </div>
 
-      <footer class={styles.footer}>
+      <footer className={styles.footer}>
         <small className={styles.footer}>2022 Ea Francisco © All Rights Reserved. </small>
       </footer>
         

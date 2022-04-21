@@ -1,9 +1,14 @@
 import styles from '../styles/Home.module.css';
+import Image from 'next/image';
+import logo from '../public/images/logo.svg'
 import Link from 'next/link';
 
 export default function Header() {
     return (
       <header className={styles.header}>
+            <Image src={logo}
+              height={100}
+              width={100} />
             <Link href="/">
               <h3>Home</h3>
             </Link>
