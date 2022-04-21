@@ -34,8 +34,8 @@ export default function Home() {
 
           </div>
     
-          <div >
-            <h4>I'm a Filipino freelance web designer based in Toronto.</h4>
+          <div className={styles.intro}>
+            <h3>I'm a Filipino freelance web designer based in Toronto.</h3>
             <p>I worked for over 4 years as a content creator and manager. I've helped clients form all around the world to create their brand, start their website, and increase their social media following.
             With my experience, I can build you creative and functional websites that matches your brand identity.
             </p>
