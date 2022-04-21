@@ -18,6 +18,9 @@
   cursor: pointer;
 }
 
+.header h3:hover {
+  text-decoration: underline;
+}
 .footer {
   margin-top: auto;
 }
