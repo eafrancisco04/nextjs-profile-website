@@ -5,15 +5,15 @@ export default function Header() {
     return (
       <header className={styles.header}>
             <Link href="/">
-              <h2>Home</h2>
+              <h3>Home</h3>
             </Link>
             {' '}
             <Link href="/resume">
-              <h2>Resume</h2>
+              <h3>Resume</h3>
             </Link>
             {' '}
             <Link href="/portfolio">
-              <h2>Portfolio</h2>
+              <h3>Portfolio</h3>
             </Link>
   
           {/* <small className={styles.footer}>2022 Ea Francisco © All Rights Reserved. </small> */}

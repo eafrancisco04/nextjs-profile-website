@@ -25,10 +25,12 @@ export default function Home() {
        
         <div>
           <div className={styles.cover}>
-            <h1>Ea Francisco</h1>
+            <h1 className={styles.title}>Ea Francisco</h1>
             <h2>Freelance Web Designer | Content Manager</h2>
-            <button type="button">My Portfolio</button>
-            <button type="button">My Resume</button>
+            <div type="button" className={styles.button}>
+              <Link href="/portfolio">My Portfolio</Link>
+            </div>
+            <div type="button"className={styles.button}>My Resume</div>
 
           </div>
     
