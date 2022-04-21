@@ -1,0 +1,50 @@
+.container {
+    color: black;
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/images/2bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 40%;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  
+  .main {
+    margin: auto;
+    padding: 2em;
+    width: 80%;
+    height: 80%;
+    align-content: center;
+    text-align: center;
+    
+    box-shadow: 0 8px 32px 0 rgba(11, 13, 45, 0.45);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 30px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card2 {
+    padding: 1rem;
+    width: 400px;
+    border: solid 1px white;
+}
