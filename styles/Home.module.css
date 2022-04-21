@@ -27,6 +27,8 @@
   padding: 2em;
   width: 80%;
   height: 80%;
+  align-content: center;
+  text-align: center;
   
   box-shadow: 0 8px 32px 0 rgba(11, 13, 45, 0.45);
   backdrop-filter: blur( 20px );
@@ -86,7 +88,26 @@
   border-radius: 10px;
 
   text-align: center;
+}
 
+.footer {
+  text-align: center;
+  padding-top: 10px;
+}
+.samples {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  padding: 1em;
+  margin: auto;
+  background-color: rgba(240, 255, 255, 0.34);
+  box-shadow: 0 8px 32px 0 rgba(11, 13, 45, 0.45);
+  backdrop-filter: blur( 100px );
+  -webkit-backdrop-filter: blur( 500px );
+  border-radius: 20px;
+  display: inline-block;
 }
 
 /*
