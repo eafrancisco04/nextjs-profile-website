@@ -8,7 +8,7 @@ import sample2 from '../public/images/kanji-app.png';
 import sample3 from '../public/images/gallery-app.png';
 
 
-export default function FirstPost() {
+export default function Portfolio() {
   return (
     <>
     <Head>
