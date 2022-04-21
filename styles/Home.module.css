@@ -122,6 +122,11 @@
   text-align: center;
 }
 
+.contact button {
+  width: 100px;
+  align-self: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;
