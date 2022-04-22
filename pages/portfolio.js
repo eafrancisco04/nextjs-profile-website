@@ -22,7 +22,7 @@ export default function Portfolio() {
     <Header />
       <h1>My Portfolio</h1>
 
-      <div classname={styles.samples}>
+      <div className={styles.samples}>
         <div className={styles.card}>
             <h3>Music Player</h3>
             <Image
