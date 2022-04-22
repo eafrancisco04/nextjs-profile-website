@@ -1,12 +1,11 @@
 import Header from '../components/Header';
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/Image';
 
-import { SiAdobephotoshop, SiAdobeaftereffects, SiAdobeillustrator, SiAdobexd, SiJavascript, SiNodedotjs } from 'react-icons/si';
-import { AiFillHtml5, AiFillGithub, AiFillInstagram, AiFillBehanceCircle } from 'react-icons/ai';
-import { DiCss3, DiReact } from 'react-icons/di';
-import { BsBootstrapFill, BsLinkedin } from 'react-icons/bs';
+
+
+import { AiFillGithub, AiFillInstagram, AiFillBehanceCircle } from 'react-icons/ai';
+import { BsLinkedin } from 'react-icons/bs';
 
 import styles from '../styles/Home.module.css';
 
