@@ -38,10 +38,10 @@ export default function Home() {
     
           <div className={styles.intro}>
             <h3>I am a Filipino freelance web designer based in Toronto.</h3>
-            <p>I worked for over 4 years as a content creator and manager. I've helped clients form all around the world to create their brand, start their website, and increase their social media following.
+            <p>I worked for over 4 years as a content creator and manager. I have helped clients form all around the world to create their brand, start their website, and increase their social media following.
             With my experience, I can build you creative and functional websites that matches your brand identity.
             </p>
-            <p>Experimenting with design has become my new passion, and I'm continuously advancing my skills and learning new tricks to give cleints a unique experience.
+            <p>Experimenting with design has become my new passion, and I am continuously advancing my skills and learning new tricks to give cleints a unique experience.
             </p>
             <p>
               Want to know about me? Check out my resume or go to my social media!
