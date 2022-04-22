@@ -37,7 +37,7 @@ export default function Resume() {
                   <h2 className={styles.heading}>Content Writer</h2>
                   <h3 className={styles.subheading}>M Square Media</h3>
                   <h5 className={styles.date}>July 2019 - Oct 2020</h5>
-                  <p className={styles.descr}>Rebranded clients' websites and created written content.</p>
+                  <p className={styles.descr}>Rebranded websites and created written content for clients.</p>
               </div>
 
               <div className={styles.card2}>
