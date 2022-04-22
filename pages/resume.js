@@ -1,7 +1,5 @@
 import Header from '../components/Header';
-import Link from 'next/link';
 import Head from 'next/head';
-import Image from 'next/image'
 import styles from '../styles/Resume.module.css';
 import { SiAdobephotoshop, SiAdobeaftereffects, SiAdobeillustrator, SiAdobexd, SiJavascript, SiNodedotjs } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub, AiFillInstagram, AiFillBehanceCircle } from 'react-icons/ai';
